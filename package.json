@@ -1,0 +1,12 @@
+{
+  "name": "@axlib/ss58-registry",
+  "version": "0.1",
+  "license": "Apache-2",
+  "description": "Registry for SS58 account types",
+  "author": "AXIA Technologies <sankar.boro@zeeve.io>",
+  "main": "ss58-registry.json",
+  "repository": "https://github.com/axia-tech/ss58-registry",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {}
+}
