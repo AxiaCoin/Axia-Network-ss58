@@ -12,9 +12,9 @@ variables:                         &default-vars
   CI_IMAGE:                        "axia-tech/ci-linux:production"
   CARGO_UNLEASH_INSTALL_PARAMS:    "--version 1.0.0-alpha.12"
   CARGO_UNLEASH_PKG_DEF:           ""
-  VAULT_SERVER_URL:                "https://vault.axc-mgmt-vault.axiacoin.network"
-  VAULT_AUTH_PATH:                 "gitlab-axc-io-jwt"
-  VAULT_AUTH_ROLE:                 "cicd_gitlab_axc_${CI_PROJECT_NAME}"
+  VAULT_SERVER_URL:                "https://vault.axia-mgmt-vault.axiacoin.network"
+  VAULT_AUTH_PATH:                 "gitlab-axia-io-jwt"
+  VAULT_AUTH_ROLE:                 "cicd_gitlab_axia_${CI_PROJECT_NAME}"
 
 #### Vault secrets
 .vault-secrets:                    &vault-secrets
@@ -65,7 +65,7 @@ variables:                         &default-vars
       - api_failure
   interruptible:                   true
   tags:
-    - kubernetes-axc-build
+    - kubernetes-axia-build
 
 .collect-artifacts:                &collect-artifacts
   artifacts:

@@ -534,30 +534,30 @@
     },
     {
 			"prefix": 88,
-			"network": "axcdex",
+			"network": "axiadex",
 			"displayName": "Axiadex Mainnet",
 			"symbols": ["PDEX"],
 			"decimals": [12],
 			"standardAccount": "*25519",
-			"website": "https://axcdex.trade"
+			"website": "https://axiadex.trade"
 		},
     {
       "prefix": 98,
-      "network": "axcsmith",
+      "network": "axiasmith",
       "displayName": "AxiaSmith Canary Network",
       "symbols": ["PKS"],
       "decimals": [18],
       "standardAccount": "*25519",
-      "website": "https://axcfoundry.com"
+      "website": "https://axiafoundry.com"
     },
     {
       "prefix": 99,
-      "network": "axcfoundry",
+      "network": "axiafoundry",
       "displayName": "AxiaFoundry Network",
       "symbols": ["PKF"],
       "decimals": [18],
       "standardAccount": "*25519",
-      "website": "https://axcfoundry.com"
+      "website": "https://axiafoundry.com"
     },
     {
       "prefix": 101,
