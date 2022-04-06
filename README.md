@@ -18,7 +18,7 @@ This is driven from the [json data file](ss58-registry.json) which contains entr
 },
 ```
 
-(Typically used by the AXIA, AXIATEST or Axlib ecosystems.)
+(Typically used by the AXIA, AxiaTest or Axlib ecosystems.)
 
 ## Process:
 

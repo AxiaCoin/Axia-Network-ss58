@@ -30,12 +30,12 @@
     },
     {
       "prefix": 2,
-      "network": "AXIATEST",
-      "displayName": "AXIATEST Relay Chain",
+      "network": "axctest",
+      "displayName": "AxiaTest Relay Chain",
       "symbols": ["AXCT"],
       "decimals": [12],
       "standardAccount": "*25519",
-      "website": "https://axiatest.network"
+      "website": "https://axctest.network"
     },
     {
       "prefix": 3,
